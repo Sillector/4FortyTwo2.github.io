@@ -1,0 +1,203 @@
+@font-face 
+{
+	font-family: GothaProBol;
+	src: url(../fonts/GothaProBol.otf);
+}
+
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+#header 
+{
+	z-index: 3;
+	position:fixed;
+	background: #ffffff;
+	font: 12px GothaProBol;
+	height: 96px;
+	width: 100%;
+	border-bottom: thick solid #5b8c6d;
+	border-bottom-width: 3px;
+}
+
+#header ul li
+{
+	cursor: pointer;
+}
+
+.topmenu_wrap
+{
+	padding-top: 96px;
+	display:none;
+	z-index: 1;
+	position:fixed;
+	background: #ffffff;
+	height: 96px;
+	width: 100%;	
+}
+
+.topmenu_list 
+{
+	width: 255px;
+	margin: 0 auto;
+}
+
+.topmenu_item
+{  
+	cursor: pointer;
+	float:left;
+	text-align: center;
+	font: 12px GothaProBol;
+	color: #5b8c6d;
+	width:60px;
+	display: inline-block;
+	padding-top: 30px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+ .topmenu_item .text
+ {
+	
+	margin: 35px auto 0px auto;
+	 
+ }
+
+.image
+{	
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin: 0 auto 9px;
+}
+
+#header #centr
+{ 
+	width: 100%;
+	height: 96px;
+}
+
+.header_nav
+{ 	
+	width: 33.33%;
+	height: 96px;
+	float: left;
+	min-width: 400px;
+	min-height: 96px;
+}	
+
+.header_nav ul li:hover
+{
+	color: #5b8c6d;
+}
+
+.header_nav .active
+{
+	color: #5b8c6d;
+}
+
+.header_nav ul 
+{
+	margin-left: 44px;
+	list-style:none; 	
+	padding: 46px 0;
+	
+}
+
+.header_nav ul li
+{	
+	display: inline-block;
+	margin-right: 34px;	
+}
+
+.header_mid
+{
+	width: 33.33%;
+	height: 96px;
+	float: left;
+	min-width: 400px;
+    min-height: 96px;	
+}
+
+.menu_bite 
+{
+	background: url(../image/bite.png) center no-repeat;
+	width: 55px;
+	height: 55px;
+}
+
+.menu_bite:hover
+{
+	background: url(../image/bite_h.png)center no-repeat;
+	color:#c57598;
+}
+
+.menu_catcher 
+{
+	background: url(../image/catcher.png) center no-repeat;
+	width: 55px;
+	height: 55px;
+}
+
+.menu_catcher:hover
+{
+	background: url(../image/catcher_h.png) center no-repeat;
+	color:#c57598;;
+}
+
+
+.menu_ball 
+{
+	background: url(../image/ball.png) center no-repeat;
+	width: 55px;
+	height: 55px;
+}
+
+.menu_ball:hover
+{
+	background: url(../image/ball_h.png) center no-repeat;
+	color:#c57598;
+	
+}
+
+.header_mid img
+{ 	
+	margin-top: 34px;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+}
+
+.header_mid
+{
+	width: 33.33%;
+	height: 96px;
+	float: left;
+	min-width: 400px;
+     min-height: 96px;
+}
+
+.header_basket
+{
+	width:33.33%;
+	height: 96px;
+	float: left;
+	min-width: 400px;
+     min-height: 96px;
+}
+
+
+.imga
+{
+	margin: 0 auto;
+	background-size: cover;
+	width: 100%;
+	
+}
+.imga img
+{
+	
+	width: 100%;
+	
+}
