@@ -12,6 +12,7 @@
 
 #header 
 {
+	min-width:1200px;
 	z-index: 3;
 	position:fixed;
 	background: #ffffff;
@@ -29,6 +30,7 @@
 
 .topmenu_wrap
 {
+	min-width: 1200px;
 	padding-top: 96px;
 	display:none;
 	z-index: 1;
@@ -116,7 +118,7 @@
 	width: 33.33%;
 	height: 96px;
 	float: left;
-	min-width: 400px;
+	min-width: 639px;
     min-height: 96px;	
 }
 
@@ -187,6 +189,41 @@
      min-height: 96px;
 }
 
+.main_slides
+{
+	max-width:1900px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.slides    
+{
+	display: inline-block;
+	width:100%;
+	max-width: 1920px;
+	overflow:hidden;
+	
+}
+
+.slides img
+{
+	
+	
+	float: left;
+}
+
+.slides_reel
+{
+	
+	position:absolute;
+	top: 0; left: 0;
+}
+
+.slides_reel img
+{
+	float: left;
+}
 
 .imga
 {
@@ -195,9 +232,33 @@
 	width: 100%;
 	
 }
-.imga img
+.slider
 {
-	
-	width: 100%;
-	
+width: 100%;
+}
+
+
+
+.page_s {
+	margin:  0 auto;
+	position: absolute;
+	bottom: 40px; right: -7px;
+	width: 178px; height:47px;
+	z-index: 100; /*--кнопки смены слайдов поверх изображения--*/
+	text-align: center;
+	line-height: 40px;
+	display: none; /*--Спрятано по умолчанию, потом будет показано с помощью jQuery--*/
+}
+.page_s a {
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+.page_s a.active {
+	font-weight: bold;
+	background: #920000;
+	border: 1px solid #610000;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
 }
